@@ -31,15 +31,14 @@ class ViewController: UIViewController {
         //messageLabel.text = "Hello World"
         //Accesing text in a text box
         messageLabel.text = "Message:" + messageTextField.text
-        nameLabel.text = "To:" + nameTextField.text
-        
         messageLabel.hidden = false
-        nameLabel.hidden = false
-        
         messageLabel.textColor = UIColor.redColor()
-        nameLabel.textColor = UIColor.blueColor()
-        //Clean the text field
         messageTextField.text = ""
+        
+        
+        nameLabel.text = "From:" + nameTextField.text
+        nameLabel.hidden = false
+        nameLabel.textColor = UIColor.blueColor()
         nameTextField.text = ""
         
         

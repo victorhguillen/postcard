@@ -90,6 +90,15 @@
                                     <action selector="sendMailButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BJp-Fp-kE8"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="messageLabel" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s76-Zd-TKc">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="11" y="77" width="327" height="59"/>
+                                </variation>
+                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AlbertEinsteinStamp.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="LOv-D3-CzJ">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
@@ -102,16 +111,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="11" y="82" width="358" height="33"/>
-                                </variation>
-                            </label>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="messageLabel" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s76-Zd-TKc">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="11" y="123" width="225" height="116"/>
+                                    <rect key="frame" x="11" y="182" width="358" height="33"/>
                                 </variation>
                             </label>
                         </subviews>
@@ -121,9 +121,9 @@
                                 <exclude reference="mYV-h1-vt4"/>
                                 <exclude reference="PRH-80-O6H"/>
                                 <exclude reference="uVJ-7d-E7b"/>
+                                <exclude reference="s76-Zd-TKc"/>
                                 <exclude reference="LOv-D3-CzJ"/>
                                 <exclude reference="919-eO-cgA"/>
-                                <exclude reference="s76-Zd-TKc"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -131,9 +131,9 @@
                                 <include reference="mYV-h1-vt4"/>
                                 <include reference="PRH-80-O6H"/>
                                 <include reference="uVJ-7d-E7b"/>
+                                <include reference="s76-Zd-TKc"/>
                                 <include reference="LOv-D3-CzJ"/>
                                 <include reference="919-eO-cgA"/>
-                                <include reference="s76-Zd-TKc"/>
                             </mask>
                         </variation>
                     </view>
